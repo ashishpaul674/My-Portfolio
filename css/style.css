@@ -1,0 +1,230 @@
+html {
+  overflow-x: hidden;
+  width: auto;
+}
+body {
+  overflow-x: hidden;
+  width: auto;
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #f9f2ed;
+  padding: 1px;
+}
+.container-fluid {
+  padding: 7px 15px;
+}
+.navbar {
+  top: 3px;
+  padding: 20px 0 20px 0;
+  background-color: #e3f6ef;
+}
+
+.sticky {
+  position: fixed;
+  /* margin-left: 40px; */
+  top: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #3f3f3f;
+}
+
+.top-container,
+.home-section {
+  background-color: #e3f6ef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+/* Navbar Section */
+.nav-item {
+  padding: 0 5px;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 3px;
+  padding: 5px;
+  width: 10%;
+  left: 5%;
+}
+
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+  right: 2%;
+  padding: 2px;
+}
+.nav-link:hover {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+.top-cloud {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+.name {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #3ab0ff;
+  padding-top: 5%;
+}
+.details {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #3ab0ff;
+}
+.about-container {
+  margin: 5% 30% 0 30%;
+}
+.my-img {
+  height: 280px;
+}
+h2 {
+  font-size: 2.5rem;
+  padding: 15px 0 10px;
+}
+.intro {
+  font-family: "Aladin";
+  font-size: 1.3rem;
+  color: black;
+}
+
+.sub-heading {
+  font-family: Rockwell;
+  color: #9bcee1;
+}
+.empl-img,
+.tech,
+.education {
+  height: 230px;
+  margin: 50px 0 50px;
+}
+.education-logo {
+  height: 150px;
+  margin: 50px 0 50px;
+}
+.msg {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+}
+.masasage {
+  margin: 3% 30%;
+}
+.btn {
+  font-family: Rockwell;
+  font-size: 1.1rem;
+  margin: 5px 10px 15px;
+  padding: 9px 20px;
+  border: 2px solid #98f6d4;
+  border-radius: 6px;
+  background-color: #e3f6ef;
+}
+.btn:hover {
+  background-color: rgb(156, 249, 224);
+}
+.bottom-container {
+  background-color: #cbf2e4;
+  padding: 35px;
+  margin-top: 12px;
+}
+.footer-link {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.footer-img {
+  height: 50px;
+  margin: 0 7px;
+  padding: 5px 8px;
+}
+.copyright {
+  margin: 12px 0 0 0;
+}
+
+.breakout-img {
+  padding: 2% 35%;
+}
+.experiences-box {
+  padding: 15px 12px;
+}
+
+@media (max-width: 1440px) {
+  .education-logo {
+    height: 100px;
+    /* padding: 2px; */
+  }
+}
+@media (max-width: 992px) {
+  .mountain-img {
+    margin-top: 50px;
+    height: 280px;
+  }
+  .top-cloud,
+  .bottom-cloud {
+    height: 10%;
+    position: absolute;
+  }
+  .top-cloud {
+    right: 15%;
+    top: 42%;
+  }
+  .bottom-cloud {
+    left: 15%;
+    top: 42%;
+  }
+}
+@media (max-width: 800px) {
+  .name {
+    font-size: 4rem;
+  }
+  .details {
+    font-size: 2.6rem;
+  }
+
+  .my-img {
+    margin: 10px;
+    height: 155px;
+  }
+}
+@media (max-width: 672px) {
+  .top-cloud,
+  .bottom-cloud {
+    height: 0%;
+  }
+}
+@media (max-width: 500px) {
+  .name {
+    font-size: 3rem;
+  }
+  .details {
+    font-size: 2rem;
+  }
+
+  .mountain-img {
+    margin: 10px;
+    height: 150px;
+  }
+  .my-img {
+    margin: 10px;
+    height: 80px;
+  }
+}
